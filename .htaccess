@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^ %{REQUEST_SCHEME}://%1%{REQUEST_URI} [R=301,L]
+
+
+RewriteRule ^aviso/$ aviso.php
+RewriteRule ^a-pousada/$ index.php?pagina=pagina.php&idpagina=1
+RewriteRule ^contato/$ index.php?pagina=contato.php
+RewriteRule ^servicos/$ index.php?pagina=pagina.php&idpagina=2
+RewriteRule ^multimidia/$ index.php?pagina=multimidia.php
+RewriteRule ^multimidia/([0-9]+)$ index.php?pagina=multimidia_album.php&idalbum=$1
+RewriteRule ^avaliacao/qrcodes/([0-9]+)$ http://penhascomt.com.br/avaliacao/qrcodes/$1
+RewriteRule ^hospedagem/$ index.php?pagina=pagina.php&idpagina=4
+RewriteRule ^reunioes/$ index.php?pagina=pagina.php&idpagina=8
+RewriteRule ^-dayuse/$ index.php?pagina=pagina.php&idpagina=7
+RewriteRule ^gastronomia/$ index.php?pagina=pagina.php&idpagina=9
+RewriteRule ^lazer/$ index.php?pagina=pagina.php&idpagina=10
+RewriteRule ^fazendinha/$ index.php?pagina=pagina.php&idpagina=11
+RewriteRule ^mapa/$ index.php?pagina=mapa.php

@@ -1,0 +1,67 @@
+[02-Jun-2020 21:01:44 America/Fortaleza] PHP Warning:  Division by zero in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 35
+[02-Jun-2020 21:01:44 America/Fortaleza] PHP Warning:  Division by zero in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 35
+[02-Jun-2020 21:01:44 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penhas41/public_html/sistema/redimensionaimagem.php:35) in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 45
+[02-Jun-2020 21:01:44 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penhas41/public_html/sistema/redimensionaimagem.php:35) in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 45
+[02-Jun-2020 21:01:46 America/Fortaleza] PHP Warning:  Division by zero in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 35
+[02-Jun-2020 21:01:46 America/Fortaleza] PHP Warning:  Division by zero in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 35
+[02-Jun-2020 21:01:46 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penhas41/public_html/sistema/redimensionaimagem.php:35) in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 45
+[02-Jun-2020 21:01:46 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penhas41/public_html/sistema/redimensionaimagem.php:35) in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 45
+[02-Jun-2020 21:01:53 America/Fortaleza] PHP Warning:  Division by zero in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 35
+[02-Jun-2020 21:01:53 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penhas41/public_html/sistema/redimensionaimagem.php:35) in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 45
+[02-Jun-2020 21:01:53 America/Fortaleza] PHP Warning:  Division by zero in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 35
+[02-Jun-2020 21:01:53 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penhas41/public_html/sistema/redimensionaimagem.php:35) in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 45
+[02-Jun-2020 21:01:55 America/Fortaleza] PHP Warning:  Division by zero in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 35
+[02-Jun-2020 21:01:55 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penhas41/public_html/sistema/redimensionaimagem.php:35) in /home1/penhas41/public_html/sistema/redimensionaimagem.php on line 45
+[02-Jun-2020 22:02:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function SelecionaBanco() in /home1/penhas41/public_html/sistema/bancodeimagens.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/penhas41/public_html/sistema/bancodeimagens.php on line 8
+[02-Jun-2020 23:05:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::Insere() in /home1/penhas41/public_html/sistema/manutencao_paginas.php:11
+Stack trace:
+#0 /home1/penhas41/public_html/sistema/index.php(7): require_once()
+#1 {main}
+  thrown in /home1/penhas41/public_html/sistema/manutencao_paginas.php on line 11
+[08-Jun-2020 09:12:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function RecebeParametro() in /home1/penhas41/public_html/sistema/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/penhas41/public_html/sistema/index.php on line 6
+[08-Jun-2020 09:12:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function RecebeParametro() in /home1/penhas41/public_html/sistema/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/penhas41/public_html/sistema/index.php on line 6
+[02-Jul-2020 00:48:04 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(/home1/penha106/public_html/img/62932.jpg): failed to open stream: No such file or directory in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 36
+[02-Jul-2020 00:48:04 America/Sao_Paulo] PHP Warning:  getimagesize(/home1/penha106/public_html/img/62932.jpg): failed to open stream: No such file or directory in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 38
+[02-Jul-2020 00:48:04 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 40
+[02-Jul-2020 00:48:04 America/Sao_Paulo] PHP Warning:  imagecreatetruecolor() expects parameter 2 to be integer, float given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 47
+[02-Jul-2020 00:48:04 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 49
+[02-Jul-2020 00:48:04 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penha106/public_html/sistema/redimensionaimagem.php:36) in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 51
+[02-Jul-2020 00:48:04 America/Sao_Paulo] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 52
+[02-Jul-2020 00:48:04 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 54
+[02-Jul-2020 00:48:04 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 55
+[08-Jul-2020 15:50:50 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(/home1/penha106/public_html/img/62932.jpg): failed to open stream: No such file or directory in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 36
+[08-Jul-2020 15:50:50 America/Sao_Paulo] PHP Warning:  getimagesize(/home1/penha106/public_html/img/62932.jpg): failed to open stream: No such file or directory in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 38
+[08-Jul-2020 15:50:50 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 40
+[08-Jul-2020 15:50:50 America/Sao_Paulo] PHP Warning:  imagecreatetruecolor() expects parameter 2 to be integer, float given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 47
+[08-Jul-2020 15:50:50 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 49
+[08-Jul-2020 15:50:50 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penha106/public_html/sistema/redimensionaimagem.php:36) in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 51
+[08-Jul-2020 15:50:50 America/Sao_Paulo] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 52
+[08-Jul-2020 15:50:50 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 54
+[08-Jul-2020 15:50:50 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 55
+[08-Jul-2020 15:50:56 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(/home1/penha106/public_html/img/62932.jpg): failed to open stream: No such file or directory in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 36
+[08-Jul-2020 15:50:56 America/Sao_Paulo] PHP Warning:  getimagesize(/home1/penha106/public_html/img/62932.jpg): failed to open stream: No such file or directory in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 38
+[08-Jul-2020 15:50:56 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 40
+[08-Jul-2020 15:50:56 America/Sao_Paulo] PHP Warning:  imagecreatetruecolor() expects parameter 2 to be integer, float given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 47
+[08-Jul-2020 15:50:56 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 49
+[08-Jul-2020 15:50:56 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penha106/public_html/sistema/redimensionaimagem.php:36) in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 51
+[08-Jul-2020 15:50:56 America/Sao_Paulo] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 52
+[08-Jul-2020 15:50:56 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 54
+[08-Jul-2020 15:50:56 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 55
+[08-Jul-2020 15:51:31 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(/home1/penha106/public_html/img/62932.jpg): failed to open stream: No such file or directory in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 36
+[08-Jul-2020 15:51:31 America/Sao_Paulo] PHP Warning:  getimagesize(/home1/penha106/public_html/img/62932.jpg): failed to open stream: No such file or directory in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 38
+[08-Jul-2020 15:51:31 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 40
+[08-Jul-2020 15:51:31 America/Sao_Paulo] PHP Warning:  imagecreatetruecolor() expects parameter 2 to be integer, float given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 47
+[08-Jul-2020 15:51:31 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 49
+[08-Jul-2020 15:51:31 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/penha106/public_html/sistema/redimensionaimagem.php:36) in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 51
+[08-Jul-2020 15:51:31 America/Sao_Paulo] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 52
+[08-Jul-2020 15:51:31 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 54
+[08-Jul-2020 15:51:31 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home1/penha106/public_html/sistema/redimensionaimagem.php on line 55

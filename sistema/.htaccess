@@ -1,0 +1,34 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+ 
+RewriteRule ^sair/$ index.php?acao=sair
+RewriteRule ^login/$ login.php
+
+RewriteRule ^albuns/novo/(.*)$ index.php?pagina=manutencao_albuns.php&idalbum=$1
+RewriteRule ^albuns/alterar/(.*)$ index.php?pagina=manutencao_albuns.php&idalbum=$1
+RewriteRule ^albuns/(.*)$ index.php?pagina=listar_albuns.php
+
+RewriteRule ^configuracoes/(.*)$ index.php?pagina=configuracoes.php
+
+RewriteRule ^mapa/$ index.php?pagina=manutencao_mapa.php
+
+RewriteRule ^mapas/novo/(.*)$ index.php?pagina=manutencao_mapas.php&idmapa=$1
+RewriteRule ^mapas/alterar/(.*)$ index.php?pagina=manutencao_mapas.php&idmapa=$1
+RewriteRule ^mapas/(.*)$ index.php?pagina=listar_mapas.php
+
+RewriteRule ^paginas/novo/(.*)$ index.php?pagina=manutencao_paginas.php&idpagina=$1
+RewriteRule ^paginas/alterar/(.*)$ index.php?pagina=manutencao_paginas.php&idpagina=$1
+RewriteRule ^paginas/(.*)$ index.php?pagina=listar_paginas.php
+
+RewriteRule ^popups/novo/(.*)$ index.php?pagina=manutencao_popups.php&idpopup=$1
+RewriteRule ^popups/alterar/(.*)$ index.php?pagina=manutencao_popups.php&idpopup=$1
+RewriteRule ^popups/(.*)$ index.php?pagina=listar_popups.php
+
+RewriteRule ^imagens/novo/(.*)$ index.php?pagina=manutencao_imagens.php&idimagem=$1
+RewriteRule ^imagens/alterar/(.*)$ index.php?pagina=manutencao_imagens.php&idimagem=$1
+RewriteRule ^imagens/(.*)$ index.php?pagina=listar_imagens.php
+
+RewriteRule ^usuarios/novo/(.*)$ index.php?pagina=manutencao_usuarios.php&idusuario=$1
+RewriteRule ^usuarios/alterar/(.*)$ index.php?pagina=manutencao_usuarios.php&idusuario=$1
+RewriteRule ^usuarios/(.*)$ index.php?pagina=listar_usuarios.php
